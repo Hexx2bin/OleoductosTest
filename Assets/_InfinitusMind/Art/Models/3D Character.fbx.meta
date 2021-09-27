@@ -5,25 +5,28 @@ ModelImporter:
   internalIDToNameTable:
   - first:
       74: -934453868174831711
-    second: Fast Run
+    second: root|mp_Fast Run
   - first:
       74: 4296563240526421257
-    second: root|mp_Idle
+    second: Idle 01
   - first:
-      74: -1633756867992349309
-    second: root|mp_Run Action
+      74: -972851505339079535
+    second: root|mp_Levantar
   - first:
       74: -1997730694597525855
     second: root|mp_Walk
   - first:
       74: 4061979181690672706
-    second: root|mp_Walk.001
+    second: Fast Run 02
   - first:
-      74: -3100369314251171874
-    second: Idle
+      74: 3871885564982023957
+    second: carrying
   - first:
-      74: 7052890335215812347
-    second: Run Action
+      74: 4423121411616856590
+    second: Fast Run 01
+  - first:
+      74: 270442050691528077
+    second: Levantar
   - first:
       74: 2667949614841947897
     second: Walk
@@ -56,7 +59,7 @@ ModelImporter:
     extraUserProperties: []
     clipAnimations:
     - serializedVersion: 16
-      name: Fast Run
+      name: Fast Run 01
       takeName: root|mp_Fast Run
       internalID: 0
       firstFrame: 0
@@ -85,7 +88,7 @@ ModelImporter:
       maskSource: {instanceID: 0}
       additiveReferencePoseFrame: 0
     - serializedVersion: 16
-      name: Idle
+      name: Idle 01
       takeName: root|mp_Idle
       internalID: 0
       firstFrame: 0
@@ -114,11 +117,11 @@ ModelImporter:
       maskSource: {instanceID: 0}
       additiveReferencePoseFrame: 0
     - serializedVersion: 16
-      name: Run Action
-      takeName: root|mp_Run Action
+      name: Levantar
+      takeName: root|mp_Levantar
       internalID: 0
       firstFrame: 0
-      lastFrame: 36
+      lastFrame: 28
       wrapMode: 0
       orientationOffsetY: 0
       level: 0
@@ -148,6 +151,64 @@ ModelImporter:
       internalID: 0
       firstFrame: 0
       lastFrame: 24
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Fast Run 02
+      takeName: root|mp_Walk.001
+      internalID: 0
+      firstFrame: 0
+      lastFrame: 30
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: carrying
+      takeName: root|mp_Walk.002
+      internalID: 0
+      firstFrame: 0
+      lastFrame: 30
       wrapMode: 0
       orientationOffsetY: 0
       level: 0
