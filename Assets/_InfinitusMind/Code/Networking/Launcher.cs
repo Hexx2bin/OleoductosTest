@@ -26,8 +26,8 @@ public class Launcher : MonoBehaviourPunCallbacks
     private void Awake()
     {
         PhotonNetwork.AutomaticallySyncScene = true;
-        DontDestroyOnLoad(Camera.main.gameObject);
-        DontDestroyOnLoad(GameObject.FindObjectOfType<CinemachineVirtualCamera>().gameObject);
+        DontDestroyOnLoad(Camera.main.gameObject.transform.parent.gameObject);
+        //DontDestroyOnLoad(GameObject.FindObjectOfType<CinemachineVirtualCamera>().gameObject);
     }
 
     private void Start()

@@ -20,4 +20,16 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/_InfinitusMind/Level/Scenes/Oleoductos 4.unity
     guid: 088f757133f11d645bb49af6ba09e8de
+  - enabled: 1
+    path: Assets/_InfinitusMind/Level/Scenes/OleoductosTest 1.unity
+    guid: 9641a43520e2a194fbff3187e6661038
+  - enabled: 1
+    path: Assets/_InfinitusMind/Level/Scenes/OleoductosTest 2.unity
+    guid: c54069d30cc8c9e49945fae5b3c0f790
+  - enabled: 1
+    path: Assets/_InfinitusMind/Level/Scenes/OleoductosTest 3.unity
+    guid: 5d20ecef8097c9640b05a82f3b1b60ce
+  - enabled: 1
+    path: Assets/_InfinitusMind/Level/Scenes/OleoductosTest 4.unity
+    guid: 6382da82158395447848c808923d4a96
   m_configObjects: {}
